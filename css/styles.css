@@ -1,0 +1,165 @@
+@import url('https://fonts.googleapis.com/css?family=Geo:400,400i|ZCOOL+QingKe+HuangYou&display=swap');
+
+body {
+    background-color: lightcyan;
+    width: 100%;
+    height:300vh;
+    padding:0;
+    margin: 0
+
+}
+
+.container {
+    position: sticky;
+    height: 100vh;
+    width: 100vw;
+    background: lightblue;
+}
+.spirit {
+    position: absolute;
+    right:15px;
+    bottom:25vh;
+    font-family: 'Geo', sans-serif;
+    font-size: 15vw;
+    font-style: italic;
+    color: blue;
+}
+
+.surfing {
+    position: absolute;
+    bottom: 0;
+    right: 222px;
+    font-family: 'Geo', sans-serif;
+    font-size: 15vw;
+    font-style: italic;
+    color: blue
+}
+.kevin {
+    position: absolute;
+    left:15px;
+    top:25vh;
+    font-family: 'Geo';
+    font-size: 5vw;
+    color: whitesmoke;
+    line-height: 5%;
+    opacity: .8;
+}
+
+.ribbon {
+    position: absolute;
+    height: 100vh;
+    width: 100vw;
+    background-color: orangered;
+    -webkit-clip-path: polygon(79.5% 0, 80.5% 0, 71.5% 100%, 70.5% 100%);
+}
+
+.ribbon2 {
+    position:sticky;
+    height: 100vh;
+    width: 100vw;
+    background-color: white;
+    -webkit-clip-path: polygon(0 27%, 0 20%, 100% 73%, 100% 81%);
+}
+
+.container2 {
+    position: absolute;
+    height: 600vh;
+    width: 100vw;
+    background: lightblue;
+    z-index: 2
+}
+
+.ribbon3 {
+    position: absolute;
+    height: 100%;
+    width: 100vw;
+    background-color: orangered;
+    -webkit-clip-path: polygon(70.5% 0, 71.5% 0, 8.5% 100%, 7.5% 100%);
+}
+
+.shapeleft {
+    shape-outside: polygon(70.5% 0, 100% 0, 100% 100%, 7.5% 100%);
+    width: 100vw;
+    height: 100%;
+    float: right;
+    padding: 5px;
+
+}
+.body-left {
+    position: static;
+    margin-left:8px;
+    font-size: 15pt;
+    font-family: 'ZCOOL QingKe HuangYou';
+    letter-spacing: 2px;
+    font-style: oblique;
+    color: darkblue;
+}
+
+.container3 {
+    position: absolute;
+    top:100vh;
+    right:0;
+    height: 600vh;
+    width: 100vw;
+    z-index:3
+}
+
+.shaperight {
+    shape-outside: polygon(0 0, 71.5% 0, 8.5% 100%, 0 100%);
+    width: 100vw;
+    height: 100%;
+    float: left;
+    padding: 5px;
+
+}
+
+.body-right {
+    position: static;
+    margin-left:8px;
+    font-size: 15pt;
+    font-family: 'ZCOOL QingKe HuangYou';
+    letter-spacing: 2px;
+    font-style: oblique;
+    color: darkblue;
+}
+
+
+#space {
+    height: 0vw;
+}
+
+#titleleft {
+    font-size: 5vw;
+    text-align: right;
+}
+
+
+#titleright {
+    font-size: 5vw;
+    text-align: left;
+}
+
+
+
+#space1 {
+    height: 25vw;
+}
+#space2 {
+    height: 40vw;
+}
+#space3 {
+    height: 15vw;
+}
+#space4 {
+    height: 15vw;
+}
+#space5 {
+    height: 23vw;
+}
+#space6 {
+    height: 13vw;
+}
+
+.footer {
+    
+}
